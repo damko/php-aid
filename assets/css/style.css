@@ -1,0 +1,159 @@
+/* LAYOUT */
+
+div.container {
+  margin-top: 20px;
+  padding: 0;
+}
+
+div.inner {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+div.js-video {
+  height: 0;
+  padding-top: 25px;
+  padding-bottom: 67.5%;
+  margin-top: -10px;
+  margin-bottom: 0px;
+  position: relative;
+  overflow: hidden;
+  /*border-top: 3px dashed white;*/
+  border: 1px solid white;
+}
+
+/* div.left {
+  margin-left: -10px;
+}
+
+div.right {
+  margin-right: -10px;
+} */
+
+.js-video embed, .js-video iframe, .js-video object, .js-video video {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  padding-bottom: 10px;
+}
+
+div.home-content {
+  !height: 100%;
+  margin-bottom: -4px; /* overlaps a little the videos */
+}
+
+.separator {
+  margin-top: 10px;
+  /*background-color: #333;*/
+  height: 20px;
+}
+
+.gray {
+  margin: 0;
+  padding-top: 10px;
+  border-top: 5px dashed #499fff;
+  /*background-color: #333;*/
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* STYLE */
+
+body {
+  height: 100%;
+  color: white;
+  background-color: #202020;
+  text-shadow: 0 1px 3px black;
+}
+
+a,
+a:hover {
+  color: #499fff;
+}
+
+a.btn {
+  text-shadow: none;
+}
+
+div.home-content > h2 {
+  color: #499fff;
+  margin-bottom: 34px;
+  font-size: 28px;
+}
+
+span.dropcap {
+  color: #499fff;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+div.home-content p, li {
+   font-size: 20px;
+}
+
+div.home-content p {
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+
+div.home-content ul {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+div.home-content li {
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+
+@media (max-width: 990px) {
+  div.home-content > h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  span.dropcap {
+    font-size: 16px;
+  }
+  div.home-content p, li {
+     font-size: 15px;
+  }
+  div.home-content p {
+    line-height: 18px;
+    margin-bottom: 14px;
+  }
+
+  div.home-content ul {
+    padding: 0;
+    margin-top: -10px;
+    margin-left: 17px;
+    margin-bottom: 3px;
+  }
+
+  div.home-content li {
+    margin: 0;
+  }
+}
+
+@media (max-width: 735px) {
+  div.home-content > h2 {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  div.home-content p {
+    font-size: 12px;
+    line-height: 12px;
+  }
+
+}
