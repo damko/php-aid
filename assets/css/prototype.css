@@ -2,7 +2,7 @@
 
 body {
   color: #333;
-  font-size: 12px;
+  font-size: 13px;
 }
 
 h2 {
@@ -18,7 +18,6 @@ ul.projects {
     margin: 0;
     padding: 0;
 }
-
 
 li.project {
     padding: 0;
@@ -36,41 +35,47 @@ div.project {
      -moz-border-radius: 4px 4px 4px 4px;
           border-radius: 4px 4px 4px 4px;
 }
+
 div.project h2 {
     display: inline;
     margin-right: 20px;
     font-size: 22px;
     font-weight: bold;
-    color: #c6ac00;
-    /*text-shadow: 0 1px 1px black;*/
 }
+
 
 div.project h3 {
     margin: 0;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 5px;
+    font-size: 15px;
 }
+
 
 div.project ul{
-    margin-bottom: 5px;
-}
-
-div.project ul,li {
-    display: inline-block;
     margin: 0;
-    margin-right: 5px;
+    margin-top: -3px;
+    margin-bottom: 15px;
     padding: 0;
 }
 
 div.project li {
+    margin: 0;
+    margin-right: 5px;
+    padding: 2px;
+    display: inline;
     font-size: 11px;
     background-color: #006b14;
     color: white;
-    padding: 3px;
     border: 1px solid #e8e8e8;
     -webkit-border-radius: 4px 4px 4px 4px;
      -moz-border-radius: 4px 4px 4px 4px;
           border-radius: 4px 4px 4px 4px;
+}
+
+div.project h2 > ul {
+    color: red;
+    margin: 0;
 }
 
 div.project li a {
