@@ -115,6 +115,22 @@ section.content {
     font-size: 14px;
     margin-bottom: 0px;
   }
+
+  div.home-content h2 {
+    color: #499fff;
+    margin-bottom: 20px;
+    font-size: 18px;
+  }
+
+  div.home-content p,
+  div.home-content ul > li {
+     font-size: 14px;
+    line-height: 18px;
+  }
+
+  span.dropcap {
+    font-size: 18px;
+  }
 }
 
 
