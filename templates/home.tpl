@@ -1,34 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <!-- <link rel="icon" href="../../favicon.ico"> -->
-
-    <title>PHP AID</title>
-
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <!-- Custom styles for this template -->
-
-
-    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="/assets/js/ie-emulation-modes-warning.js"></script>
-
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
-  </head>
-
-  <body>
-    <div class="container">
+{% extends "base.tpl" %}
+{% block body %}
+    <div class="container first">
       <section class="row">
 
         <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
@@ -39,16 +11,16 @@
 
         <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 content">
 
-          <div class="home-content">
+          <div class="home-video">
             <h2>Dreams can come true</h2>
             <p>
-              Most of his dreams will hardly come true. And this is a good thing, I guess.
+              Most of his dreams will hardly come true. And this is a good thing, I guess :-D
             </p>
             <p>
-              Dreaming of mastering PHP and other languages can come true
+              Dreaming of mastering PHP and other languages can come true ...
             </p>
             <p>
-               but it will be hard ... for everybody.
+               but it will be hard for everybody.
             </p>
             <p>
               Constantly hard and challenging.
@@ -65,7 +37,7 @@
 
         <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
 
-          <div class="home-content">
+          <div class="home-video">
             <h2>The virtuous circle of mutual help</h2>
             <p>
               There is no shame in saying that programming is hard but
@@ -100,7 +72,7 @@
         </div>
 
         <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 content">
-          <div class="home-content">
+          <div class="home-video">
             <h2>Not even age can stop you</h2>
 
             <p>
@@ -126,9 +98,24 @@
 
       </section>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
       <section class="row separator"></section>
 
-      <section class="row gray">
+      <section class="row content">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>Four little bastards</h2>
@@ -198,9 +185,9 @@
         </div>
       </section>
 
-      <div class="row separator"></div>
+      <section class="row separator"></section>
 
-      <section class="row gray">
+      <section class="row content">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
 
@@ -247,9 +234,9 @@
         </div>
       </section>
 
-      <div class="row separator"></div>
+      <section class="row separator"></section>
 
-      <section class="row gray">
+      <section class="row content">
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>The prototype</h2>
@@ -257,7 +244,7 @@
               For the sake of clarity, I've put together a rudimental prototype which shows how the marketplace could work and I will use some elementary projects of mine as guinea pigs to see if the idea of the marketplace makes sense.
             </p>
 
-            <a href="#" style="margin-top: 20px; margin-bottom: 10px;" class="btn btn-lg btn-default">Try the prototype</a>
+            <a href="/prototype.php" style="margin-top: 20px; margin-bottom: 10px;" class="btn btn-lg btn-default">Try the prototype</a>
 
           </div>
         </div>
@@ -276,15 +263,4 @@
       </section>
     </div>
 
-
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-    <script src="/assets/js/docs.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
-  </body>
-</html>
+{% endblock %}

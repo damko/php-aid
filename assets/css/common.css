@@ -1,0 +1,41 @@
+/* LAYOUT */
+
+div.container {
+  padding: 0;
+}
+
+div.first {
+  padding-top: 50px;
+}
+
+section.row {
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* STYLE */
+
+body {
+  height: 100%;
+}
+
+a,
+a:hover {
+  color: #499fff;
+}
+
+a.btn {
+  text-shadow: none;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+h3 {
+    font-size: 14px;
+}
+
+ul.nav > li > a{
+  font-size: 14px;
+}
