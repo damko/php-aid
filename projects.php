@@ -26,7 +26,7 @@ foreach ($filesystem->listContents() as $file) {
     }
 };
 
-echo $twig->render('prototype.tpl', array(
+echo $twig->render('projects.tpl', array(
         'projects' => $projects,
-        'style' => 'prototype.css'
+        'style' => 'projects.css'
     ));

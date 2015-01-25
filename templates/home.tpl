@@ -14,7 +14,7 @@
           <div class="home-video">
             <h2>Dreams can come true</h2>
             <p>
-              Most of his dreams will hardly come true. And this is a good thing, I guess :-D
+              Most of his dreams will hardly come true and this is a good thing, I guess :-D
             </p>
             <p>
               Dreaming of mastering PHP and other languages can come true ...

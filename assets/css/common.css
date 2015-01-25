@@ -1,19 +1,18 @@
-/* LAYOUT */
+body {
+  color: white;
+  background-color: #333;
+  font-size: 13px;
+  text-shadow: 0 1px 3px black;
+}
 
 div.container {
   padding: 0;
-}
-
-div.first {
-  padding-top: 50px;
 }
 
 section.row {
   margin-right: auto;
   margin-left: auto;
 }
-
-/* STYLE */
 
 body {
   height: 100%;
@@ -31,6 +30,7 @@ a.btn {
 
 h2 {
     font-size: 24px;
+    color: #499fff;
 }
 
 h3 {

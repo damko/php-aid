@@ -2,3 +2,4 @@ misc/*
 projects/*
 trash/*
 vendor/*
+templates/cache/*
