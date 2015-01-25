@@ -240,11 +240,13 @@
         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>The prototype</h2>
-            <p>
-              For the sake of clarity, I've put together a rudimental prototype which shows how the marketplace could work and I will use some elementary projects of mine as guinea pigs to see if the idea of the marketplace makes sense.
-            </p>
 
-            <a href="/prototype.php" style="margin-top: 20px; margin-bottom: 10px;" class="btn btn-lg btn-default">Try the prototype</a>
+            <p>
+              I've put together a rudimental <a href="/prototype.php">prototype</a> which shows how the marketplace could work.
+            </p>
+            <p>
+              I use some elementary projects of mine as guinea pigs to see if the idea makes sense.
+            </p>
 
           </div>
         </div>
@@ -256,7 +258,7 @@
               I'd be grateful you want to provide some feedback using the comments below.
             </p>
             <p>
-              If you want to come aboard, please, contact <a href="http://twitter.com/damko">me</a> on Twitter.
+              If you want to come aboard, please, <a href="http://twitter.com/damko">contact me</a> on Twitter.
             </p>
           </div>
         </div>
