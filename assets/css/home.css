@@ -72,8 +72,25 @@ section.content {
 }
 
 
+@media (max-width: 1199px) {
 
-@media (max-width: 990px) {
+  div.home-video h2 {
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+
+  div.home-video p {
+     font-size: 17px;
+     margin-bottom: 15px;
+  }
+
+  div.home-video ul > li {
+    font-size: 17px;
+    margin-bottom: 0px;
+  }
+}
+
+/* @media (max-width: 1199px) {
   div.home-content > h2 {
     font-size: 20px;
     margin-bottom: 20px;
@@ -111,4 +128,4 @@ section.content {
     line-height: 12px;
   }
 
-}
+} */
