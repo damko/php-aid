@@ -3,13 +3,13 @@
     <div class="container first">
       <section class="row">
 
-        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
           <div class="js-video left">
             <iframe width="1280" height="720" class="video" src="//www.youtube.com/embed/BG1oUPMSDXQ?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
         </div>
 
-        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 content">
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 content">
 
           <div class="home-video">
             <h2>Dreams can come true</h2>
@@ -17,10 +17,7 @@
               Most of his dreams will hardly come true and this is a good thing, I guess :-D
             </p>
             <p>
-              Dreaming of mastering PHP and other languages can come true ...
-            </p>
-            <p>
-               but it will be hard for everybody.
+              Dreaming of mastering PHP and other programming languages can come true ... but it will be hard. For everybody.
             </p>
             <p>
               Constantly hard and challenging.
@@ -35,7 +32,7 @@
 
       <section class="row">
 
-        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5">
 
           <div class="home-video">
             <h2>The virtuous circle of mutual help</h2>
@@ -53,7 +50,7 @@
 
         </div>
 
-        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
           <div class="js-video right">
             <iframe width="1280" height="720" class="video" src="//www.youtube.com/embed/VRQn2utaaJw?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
           </div>
@@ -63,7 +60,7 @@
 
       <section class="row">
 
-        <div class="col-xs-7 col-sm-7 col-md-7 col-lg-7">
+        <div class="col-xs-12 col-sm-7 col-md-7 col-lg-7">
 
           <div class="js-video left">
             <iframe width="1280" height="720" class="video" src="//www.youtube.com/embed/DQGhlDo7m1U?rel=0&amp;controls=1&amp;showinfo=0" frameborder="0" allowfullscreen></iframe>
@@ -71,7 +68,7 @@
 
         </div>
 
-        <div class="col-xs-5 col-sm-5 col-md-5 col-lg-5 content">
+        <div class="col-xs-12 col-sm-5 col-md-5 col-lg-5 content">
           <div class="home-video">
             <h2>Not even age can stop you</h2>
 
@@ -116,7 +113,7 @@
       <section class="row separator"></section>
 
       <section class="row content">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>Four little bastards</h2>
             <p>
@@ -146,21 +143,12 @@
               Many Europeans suffer them but few are ready to admit it. Shame is a beast.
             </p>
 
-            <p>
-              Of course, I've got them all and I'm still dealing with most of them. Obviously the last point is not going to be any better in the future :-)
-            </p>
-
-
           </div>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>History</h2>
-            <p>
-              There are some historical considerations to take in account about those 4 little bastards.
-            </p>
-
             <p>
               An Italian developer born in the 70's, as I am, had his/her first computer when he was about 18 year old and probably didn't attend any computing class.
             </p>
@@ -174,11 +162,11 @@
             </p>
 
             <p>
-              These factors create a isolated environments and it can be hard to get in touch with other developers and to be contaminated by new ideas and experiences. Because of that specialization is also hard to achive.
+              These factors create an isolated environment in which it's hard to get in touch with other developers and to be contaminated by new ideas and experiences. Because of that specialization is also hard to achive.
             </p>
 
             <p>
-              For other European countries the situation can harder: until 1989 many were under the Soviet Union which wasn't exactly free and open. It was only 25 years ago.
+              For other Europeans the situation can be harder: until 1989 many were under the Soviet Union which wasn't exactly free and open. It was only 25 years ago.
             </p>
 
           </div>
@@ -188,7 +176,7 @@
       <section class="row separator"></section>
 
       <section class="row content">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
 
             <h2>About PHP-AID</h2>
@@ -211,7 +199,7 @@
           </div>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>Targets for PHP-AID</h2>
 
@@ -237,7 +225,7 @@
       <section class="row separator"></section>
 
       <section class="row content">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>The prototype</h2>
 
@@ -251,7 +239,7 @@
           </div>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
             <h2>Get involved</h2>
             <p>

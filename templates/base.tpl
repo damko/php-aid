@@ -44,8 +44,19 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="/">Home</a></li>
-            <li><a href="/projects.php">Projects</a></li>
+
+            {% if navbar_active == 'home' %}
+              <li class="active"><a href="/">Home</a></li>
+            {% else %}
+              <li><a href="/">Home</a></li>
+            {% endif %}
+
+            {% if navbar_active == 'projects' %}
+              <li class="active"><a href="/projects.php">Projects</a></li>
+            {% else %}
+              <li><a href="/projects.php">Projects</a></li>
+            {% endif %}
+
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -61,5 +72,6 @@
     <script src="/assets/js/docs.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
     <script src="/assets/js/ie10-viewport-bug-workaround.js"></script>
+
   </body>
 </html>

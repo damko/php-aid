@@ -3,6 +3,9 @@ body {
   background-color: #333;
   font-size: 13px;
   text-shadow: 0 1px 3px black;
+  height: 100%;
+  /*min-width: 722px;*/
+  min-width: 310px;
 }
 
 div.container {
@@ -12,11 +15,6 @@ div.container {
 section.row {
   margin-right: auto;
   margin-left: auto;
-}
-
-body {
-  height: 100%;
-  min-width: 722px;
 }
 
 a,

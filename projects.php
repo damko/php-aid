@@ -28,5 +28,6 @@ foreach ($filesystem->listContents() as $file) {
 
 echo $twig->render('projects.tpl', array(
         'projects' => $projects,
-        'style' => 'projects.css'
+        'style' => 'projects.css',
+        'navbar_active' => 'projects'
     ));

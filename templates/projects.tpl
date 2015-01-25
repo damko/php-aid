@@ -4,7 +4,7 @@
     <div class="container first">
 
       <section class="row">
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h2>How to join a project?</h2>
           <ol>
             <li>Find a project you like among those displayed below</li>
@@ -13,7 +13,7 @@
           </ol>
         </div>
 
-        <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+        <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <h2>How to list your project here?</h2>
           <ol>
             <li>Fork the <a href="https://github.com/damko/php-aid-projects">php-aid-projects repo</a></li>
@@ -38,7 +38,7 @@
           <ul class="list-group row projects">
             {% for proj in projects %}
 
-                <li class="list-group-item col-xs-6 project">
+                <li class="list-group-item col-xs-12 col-sm-6 col-md-6 col-lg-6 project">
                   <div class="project">
                   {{ proj|raw }}
                   </div>

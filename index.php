@@ -11,5 +11,6 @@ $twig = new Twig_Environment($loader, array(
 //$twig->addExtension(new Twig_Extension_Escaper('html'));
 
 echo $twig->render('home.tpl', array(
-        'style' => 'home.css'
+        'style' => 'home.css',
+        'navbar_active' => 'home'
     ));
