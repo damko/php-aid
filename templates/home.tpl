@@ -208,7 +208,7 @@
             </p>
 
             <p>
-              <span class="dropcap">2nd</span> PHP-AID should ease the cooperation between people and the birth of teams of developers.
+              <span class="dropcap">2nd</span> PHP-AID should ease the cooperation between people and the birth and growth of teams of developers.
             </p>
 
             <p>
@@ -243,14 +243,34 @@
           <div class="home-content">
             <h2>Get involved</h2>
             <p>
-              I'd be grateful you want to provide some feedback using the comments below.
+              If you want to come aboard, please, <a href="http://twitter.com/damko">contact me</a> on Twitter.
             </p>
             <p>
-              If you want to come aboard, please, <a href="http://twitter.com/damko">contact me</a> on Twitter.
+              I would also appreciate some feedback using the comments below.
             </p>
           </div>
         </div>
       </section>
+
+      <section class="row separator"></section>
+
+      <section class="row content">
+      <div id="disqus_thread"></div>
+      <script type="text/javascript">
+          /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+          var disqus_shortname = 'phpaid'; // required: replace example with your forum shortname
+
+          /* * * DON'T EDIT BELOW THIS LINE * * */
+          (function() {
+              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+              dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+      </script>
+      <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+      </section>
+
     </div>
 
 {% endblock %}
