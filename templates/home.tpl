@@ -44,7 +44,7 @@
               Ten times difference in productivity means community fragmentation. Fragmentation is poison but mutual help is the antidote.
             </p>
             <p>
-              A lot of great men and women already entered the virtuos circle of mutual aid and many others would but can't.
+              A lot of great people already entered the virtuos circle of mutual aid and many others would but can't.
             </p>
           </div>
 
@@ -115,7 +115,7 @@
       <section class="row content">
         <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
           <div class="home-content">
-            <h2>Four little bastards</h2>
+            <h2>Four unwanted companions</h2>
             <p>
               In 2014 I pleasantly saw a rising attention around <a href="https://twitter.com/search?q=%23hackthestigma">mental health</a>, discrimination and equal opportunities.
             </p>
@@ -136,7 +136,7 @@
             </ul>
 
             <p>
-              These 4 little bastards are quite underrated issues causing a lot of fragmentation in any IT community. They are not strictly related to discrimination but, unfortunately, they produce similar effects: shame, fear and, the worse, isolation.
+              These are quite underrated issues causing a lot of fragmentation in any IT community. They are not strictly related to discrimination but, unfortunately, they produce similar effects: shame, fear and, the worse, isolation.
             </p>
 
             <p>
@@ -215,9 +215,6 @@
                One way to reach the second target could be the creation of a marketplace for potential or already existent opensource projects in which the demand for help meets the offer of help.
             </p>
 
-
-<!--
- -->
           </div>
         </div>
       </section>
@@ -252,6 +249,7 @@
         </div>
       </section>
 
+<!--       
       <section class="row separator"></section>
 
       <section class="row content">
@@ -269,7 +267,8 @@
       </script>
       <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 
-      </section>
+      </section> 
+-->
 
     </div>
 
