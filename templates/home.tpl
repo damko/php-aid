@@ -242,9 +242,9 @@
             <p>
               If you want to come aboard, please, <a href="http://twitter.com/damko">contact me</a> on Twitter.
             </p>
-            <p>
+<!--             <p>
               I would also appreciate any feedback in the comments below.
-            </p>
+            </p> -->
           </div>
         </div>
       </section>
