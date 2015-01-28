@@ -88,7 +88,7 @@
 
 
             <p>
-              But those are not difficulties to suffer, they are changellenges to be proud to overcome with mutual help.
+              But those are not difficulties to suffer, they are challenges to be proud to overcome with mutual help.
             </p>
           </div>
         </div>
@@ -227,7 +227,7 @@
             <h2>The prototype</h2>
 
             <p>
-              I've put together a rudimental <a href="/prototype.php">prototype</a> which shows how the marketplace could work.
+              I've put together a rudimental <a href="/projects.php">prototype</a> which shows how the marketplace could work.
             </p>
             <p>
               I use some elementary projects of mine as guinea pigs to see if the idea makes sense.
